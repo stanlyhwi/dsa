@@ -24,10 +24,11 @@ class recursive{
 
        Arrays.sort(arr);
 
-       int max= arr.length-1;
+       
        int coin = sc.nextInt();
        int count=0;
-       int me = arr[arr.length-1];
+       int me = arr.length-1;
+       int max= arr[me];
 
 
        System.out.println(rec(arr,coin,max,count,me) );
